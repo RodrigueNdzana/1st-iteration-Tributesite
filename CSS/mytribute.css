@@ -1,0 +1,292 @@
+
+ ul{
+     
+    list-style: none;
+}
+ul li {
+    display:inline-block;
+    color: red;
+    font-size: 37px;
+    padding: 32px;
+      
+}
+ a:nth-child(4){
+    float: right;
+}
+ a:nth-child(3){
+    float: right;
+}
+ a li:hover{
+    color: blue;
+     transform: scale(1.1);
+}
+
+ /*---Logo---*/
+ picture img{
+   width: 19vh;
+   border-radius: 50%;
+   margin-left: 90vh;
+   position: fixed;
+   height: 130px;
+   margin-top: -1px;   
+}
+.logo{
+    text-decoration: underline;
+    color: white;
+    margin: -9px auto;
+}
+
+.menu{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 23vh;
+    margin-left:-8px;
+    margin-top: -20px;
+}
+/*---- Slideshow--*/
+/*.slideshow{
+    width: 100%;
+    padding: 87px;
+    background-color: green;
+    margin-left: -8px;
+}
+*/
+.slideshow img{
+    margin-left: -8px;
+    width: 102%;
+    height: 34em;
+    margin-top: 92px;
+    }
+
+
+/*----Mission session*/
+.Mission{
+    width: 98%;
+}
+.Mission p{
+    font-size: 21px;
+    margin-left: 61px;
+    line-height: 30px;
+}
+.Mission h1{
+    font-style: italic;
+    word-spacing: 8px;
+    margin-left: 64px;
+    color: blue;
+    text-decoration-line: underline;
+}
+/*---Gallerry Session*/
+.Gallery h1{
+    font-style: italic;
+    word-spacing: 8px;
+    margin-left: 64px;
+    color: blue;
+    text-decoration-line: underline;
+}
+.Gallery{
+    width: 98%;
+}
+.Gallery img{
+    margin-left: 63px;
+    width: 363px;
+    
+}
+.img1 img{
+    height: 20em;
+}
+.img2 img{
+    height: 20em;
+   
+}
+/*---unorderlist---*/
+#unorderlist li{
+    font-size: 20px;
+    font-family: Aerial;
+    color: black;
+    display: inherit;
+
+
+}
+#unorderlist span{
+    font-weight: bold;
+}
+#unorderlist{
+    margin-left: 7em;
+}
+.title2{
+    width: 93%;
+    margin-left: 63px;
+    background: black;
+    padding: 1px;
+    margin-top: 16px;
+}
+.title2 h1{
+    font-style: italic;
+    word-spacing: 8px;
+    color: red;
+    text-decoration-line: underline;
+}
+
+
+@media only screen and (max-width: 289px) {
+   .menu{
+    background-color: black;
+    position: fixed;
+    width: 118%;
+    height: 23vh;
+    margin-left: -45px;
+}
+.slideshow img {
+    margin-left: -8px;
+    width: 106%;
+    height: 18em;
+    margin-top: 65px;
+}
+ul li {
+    display: inline-block;
+    color: red;
+    font-size: 15px;
+    padding: 18px;
+    margin-left: -21px;
+    margin-top: 39px;
+}
+.Mission h1 {
+    font-style: italic;
+    word-spacing: 8px;
+    margin-left: 10px;
+    color: blue;
+    text-decoration-line: underline;
+    font-size: 23px;
+}
+.Mission p {
+    font-size: 15px;
+    margin-left: 11px;
+    line-height: 24px;
+}
+.Gallery h1 {
+    font-style: italic;
+    word-spacing: 8px;
+    margin-left: 8px;
+    color: blue;
+    text-decoration-line: underline;
+    font-size: 23px;
+}
+.img1 img {
+    height: 20em;
+}
+.Gallery img {
+    width: 252px;
+}
+.img2 img {
+    height: 20em;
+}
+.Gallery {
+    width: 98%;
+}
+.Gallery img {
+    margin-left: -3px;
+    
+}
+.title2 {
+    width: 93%;
+    background: black;
+    padding: 1px;
+    margin-top: 335px;
+    margin-left: 12px;
+}
+.title2 h1 {
+    font-style: italic;
+    word-spacing: 8px;
+    color: red;
+    text-decoration-line: underline;
+    font-size: 13px;
+}
+picture img {
+    width: 7vh;
+    border-radius: 50%;
+    margin-left: 14vh;
+    position: fixed;
+    height: 53px;
+    margin-top: 36px;
+}
+#unorderlist li {
+    font-size: 13px;
+    font-family: Aerial;
+    color: black;
+    display: inherit;
+    margin-top: -4px;
+}
+#unorderlist {
+    margin-left: 0em;
+}
+}
+
+ @media only screen and (max-width:360px){
+    ul li {
+    display: inline-block;
+    color: red;
+    font-size: 31px;
+    padding: 22px;
+    margin-top: 23px;
+
+}
+.menu {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 23vh;
+    margin-left: -8px;
+    margin-top: -20px;
+}
+.slideshow img {
+    margin-left: -8px;
+    width: 177%;
+    height: 34em;
+    margin-top: 89px;
+}
+picture img {
+    width: 12vh;
+    border-radius: 50%;
+    margin-left: 41vh;
+    position: fixed;
+    height: 90px;
+    margin-top: 19px;
+}
+.Mission {
+    width: 169%;
+}
+.title2 {
+    width: 93%;
+    margin-left: 63px;
+    background: black;
+    padding: 1px;
+    margin-top: 9px;
+    clear: both;
+}
+.Mission p {
+    font-size: 24px;
+    margin-left: 61px;
+    line-height: 35px;
+}
+img2 img {
+    height: 20em;
+    padding: 9px;
+}
+img1 img {
+    height: 20em;
+    padding: 9px;
+}
+#unorderlist li {
+    font-size: 27px;
+    font-family: Aerial;
+    color: black;
+    display: inherit;
+    line-height: 40px;
+}
+#unorderlist {
+    margin-left: 3em;
+    width: 132%;
+}
+ }
+
